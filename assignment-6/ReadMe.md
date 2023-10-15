@@ -17,10 +17,9 @@ To access the page, simply open the HTML file in a web browser.
 Read through the different sections to learn about astaxanthin and its benefits.
 
 ## Screenshots
-![Screenshot 1](/assignment-6/images/screenshot-1.png)
-![Screenshot 2](/assignment-6/images/screenshot-2.png)
-![Screenshot 3](/assignment-6/images/screenshot-3.png)
-![Screenshot 4](/assignment-6/images/screenshot-4.png)
+![Screenshot 1](/assignment-6/images/assignment-6-screenshot-1.png)
+![Screenshot 2](/assignment-6/images/assignment-6-screenshot-2.png)
+![Screenshot 3](/assignment-6/images/assignment-6-screenshot-3.png)
 
 ## Built With
 - HTML
