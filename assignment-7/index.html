@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            The Garden
+        </title>
+        <!-- Defining character set used -->
+        <meta charset="UTF-8">
+        <!-- Describing the page content -->
+        <meta name="description" content="This is the Garden's homepage. Enjoy your stay!">
+        <!-- Naming the author of the page -->
+        <meta name="author" content="Elizabeth Sweeney">
+        <!-- Providing the scale and width of the page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Importing font -->
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/mr-pixel" type="text/css"/> 
+        
+        <!-- Style elements for body, input, image, and table -->
+        <style>
+            body {
+                font-family: 'VTFMisterPixelRegular';
+                font-weight: normal;
+                font-style: normal;
+                font-size: 20px;
+                background-color: honeydew;
+            }
+            table, th, td {
+                border: 3px solid black;
+                border-collapse: collapse;
+                padding: 2px;
+                background-color: lemonchiffon;
+                color: purple;
+            } 
+            img {
+                border: 5px solid black;
+            }
+            input {
+                color:red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Welcome to the Garden!</h1>
+        <img src="images/pixel-garden.png" width="500" height="260" alt="A pixelated garden path" title="The Garden Path">
+        <!-- The store's description -->
+        <section>        
+            We're a community-orientated, family run, flower shop! The perfect place to open your mind and heart. The one stop shop for <strong>all</strong> your needs. 
+            Pet owners are not allowed inside the store, but pets are always welcome! Open every other day, 9 AM to 3 PM. New stock is being summoned all the time, so
+            be sure to check in often!
+        </section>
+        <!-- Questions and comments -->
+        <form method="post" action="index.html">
+            <h3>Give us your name?</h3>
+            <input type="text" id="name" placeholder="enter your real name" autofocus>
+            
+            <h3>What's your worst fear?</h3>
+            <input type="checkbox" name="worst-fear" type="worst-fear" value="teeth-gone">my teeth all falling out<br />
+            <input type="checkbox" name="worst-fear" type="worst-fear" value="lonely-times">being alone<br />
+            <input type="checkbox" name="worst-fear" type="worst-fear" value="clown-moment">clowns<br />
+            <input type="checkbox" name="worst-fear" type="worst-fear" value="regret-full">dying full of regrets<br />
+            <input type="checkbox" name="worst-fear" type="worst-fear" value="unending-survival">living forever<br />
+            <input type="checkbox" name="worst-fear" type="worst-fear" value="good-choice">chihuahuas<br />
+            <h3>What's your favorite color?</h3>
+            <input type="text" id="color" placeholder="enter any color but blue" autofocus>
+            <p></p>
+            Comments? Concerns? Prayers?<br />
+            <textarea name="comments" id="comments" rows="5" col="30">any additional questions, worship, or intel</textarea>
+        </form>    
+        <!-- Table containing the store's gift shop selection -->
+        <h2>Our Gift Shop!</h2>
+        <p>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>a smooch from a rose </td>
+                    <td>one fifth of your tastebuds </td>
+                </tr>
+                <tr>
+                    <td>twenty seven wilted dandelions </td>
+                    <td>a hastily made sandwich </td>
+                </tr>
+                <tr>
+                    <td>an immortal cactus </td>
+                    <td>the memory of your first love </td>
+                </tr>
+                <tr>
+                    <td>a bouquet of forget-me-pleases </td>
+                    <td>your fourth best talent </td>
+                </tr>
+            </table>
+        </p>
+
+        <!-- Contact, address, and subscription -->
+        <h3>Come visit us! We're happily located at:</h3>
+        <address>
+            Between Three Rivers <br />
+            456 NS Middle o' Nowhere <br />
+            County, ST 00000 <br />
+            <a href="tel:111-222-3333" target="_blank" rel="noopener">111-222-3333</a> <br />
+        </address>
+        <a href="mailto:TheGardeners@protonmail.com">Email us please! We love to chat.</a>
+        <h3>Subscribe to get news beamed directly into your head!</h3>
+        Yes!&nbsp;<input type="radio" name="brainwaves" type="brainwaves" value="yes">
+        Yes?&nbsp;<input type="radio" name="brainwaves" type="brainwaves" value="maybe">
+        </br>
+        <input type="submit" name="subscribe" value="Subscribe" />
+    </body>
+</html>
