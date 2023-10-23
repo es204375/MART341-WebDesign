@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Defining the meta data, the website user will not see this -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Elizabeth Sweeney">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>Minecraft's Endermen</title>
+        <!-- Style elements for body, the container class, and span -->
+        <style>
+            body {
+                background-color:black;
+                color:aliceblue;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            span {
+                color:rgb(207, 156, 255);
+            }
+            .container {    
+            background-color:rgb(63, 63, 63);
+            width: 600;
+            margin: auto;
+            padding: 30px;
+            border: 2pt solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1><u>All about Endermen!</u></h1>
+        <!-- This is information about Endermen including tips that could help players, specifically highlighted via span -->
+        <div id="game-info" class="container">
+            <h2>What is an Enderman?</h2>
+            <p>
+                Fans of the hit open-world indie game, &#34;Minecraft,&#34; surely know all about this lovably spooky creature. Standing tall and lanky, the <strong>Endermen</strong> have glowing purple eyes that match the floating particles
+                that float around them. They teleport from place to place, occasionally picking up blocks and placing them elsewhere. An Enderman is a,  &#34;mob,&#34; a non-player created entity. Minecraft mobs are divided
+                into three subsections, passive. neutral, and hostile. Hostile mobs will attack the player without first being hurt by the player, neutral mobs must be provoked into hurting the player, 
+                and passive mobs will not become aggressive no matter what. Being classed as a neutral mob, Endermen won't attack the player unless specifically provoked. Spiders, another neutral monster, 
+                also won't attack the player during the day unprovoked, but unlike Endermen, they will try to kill the player at night. <span id="game-tip">Endermen will only become
+                aggressive towards the player when they've been attacked or when the player stares at their eyes for too long.</span> Another thing that sets them apart from their fellow mobs and monsters is that they are found
+                in all three dimensions in the game (the End, the Nether, and the Overworld). These creatures have valuable loot. <span id="game-tip">When killed they drop an, "enderpearl," a strange round object that allows the player
+                    to teleport wherever it lands after being thrown.</span> They've got twice as many health points as the player, and they can teleport out of the way of arrows making them
+                a formidable foe! <span id="game-tip">However, Endermen are too big to get into spaces that are two blocks tall and they're hurt by water, so you can hide in a pond or a small cave.</span>
+            </p>
+        </div>
+        <!-- This is locally saved game art of Enderman with captions describing the images -->
+        <div id="game-art" class="container">
+            <h2>Pictures of Endermen</h2>
+            <img src="images/Enderman_normal.jpg" height="500" width="300" alt="Current Enderman Design">
+            <figcaption>The current design of an Enderman. How cool!</figcaption>
+            <img src="images/Enderman_holding_grass.jpg" height="500" width="300" alt="Enderman Holding Block Design">
+            <figcaption>This Enderman picked up a grass block.</figcaption>
+            <img src="images/Enderman_angry.jpg" height="500" width="500" alt="Enderman Aggressive Design">
+            <figcaption>Uh oh! You made this Enderman mad!</figcaption>
+        </div>
+        <!-- This is locally saved MP3 audios of various in-game Enderman noises -->
+        <div id="game-audio" class="container">
+            <h2>Audio of Endermen</h2>
+            <audio preload controls>
+                <source src="./media/Enderman_idle1.mp3" type="audio/mpeg" />
+                <p>This is the one of the sounds an Enderman makes while idling.</p>
+                <p>Sorry! Your browser doesn't support the playing of MP3 audio.</p>
+            </audio>
+            <audio preload controls>
+                <source src="./media/Enderman_stare.mp3" type="audio/mpeg" />
+                <p>This is the sound an Enderman makes when you look into its eyes. Spooky!</p>
+                <p>Sorry! Your browser doesn't support the playing of MP3 audio.</p>
+            </audio>
+            <audio preload controls>
+                <source src="./media/Enderman_scream1.mp3" type="audio/mpeg" />
+                <p>This is the one of the sounds an Enderman makes while attacking.</p>
+                <p>Sorry! Your browser doesn't support the playing of MP3 audio.</p>
+            </audio>
+            <audio preload controls>
+                <source src="./media/Enderman_death.mp3" type="audio/mpeg" />
+                <p>This is the sound an Enderman makes when you defeat it. Impressive!</p>
+                <p>Sorry! Your browser doesn't support the playing of MP3 audio.</p>
+            </audio>
+        </div>
+        <!-- This is a locally saved MP4 video of a YouTube video about Endermen -->
+        <div id="video" class="container">
+            <h2>A theory video on Endermen lore</h2>
+            <iframe width="1000" height="560" src="./media/Game_Theory_Enderman.mp4" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <!-- These are the sources of the media and information found on the website -->
+        <div id="sources" class="container">
+            <h3>Website sources</h3>
+            <p>
+                Information, audio, and images from the <a href="https://minecraft.fandom.com">Minecraft wiki</a>. Video from the YouTube channel <a href="https://www.youtube.com/@GameTheory">Game Theory</a>.
+            </p>
+        </div>
+    </body>
+</html>
