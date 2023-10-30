@@ -32,29 +32,32 @@
     </head>
     
     <body>
+        <!-- This is the page navigation and title -->
         <nav><a href="../index.html">Recipe</a> &vert; <a href="facts.html">Fun Facts</a> &vert; <a href="contact.html">Contact</a></nav>
-
         <h1><u>Contact Me</u></h1>
-        <form method="post" action="contact.html">
-            <h3>
-                <table>
-                    <tr>
-                    </tr>
-                    <tr>
-                        <td><label for="name">Name</label></td>
-                        <td><input type="text" id="name"/></td>
-                    </tr>
-                    <tr>
-                        <td><label for="number">Phone Number</label></td>
-                        <td><input type="text" id="number"/></td>
-                    </tr>
-                    <tr>
-                        <td><label for="mail">Email</label></td>
-                        <td><input type="text" id="mail"/></td>
-                    </tr>
-                </table>
-                Comments? Questions? Ideas?<br />
-            <textarea name="comments" id="comments" rows="5" cols="50">Write whatever you'd like the website owner to see, just be nice about it please!</textarea>
-            </h3>
-        </form>    
+        <!-- This is a contact form -->
+        <div id="contact-form" class="container">
+            <form method="post" action="contact.html">
+                <h3>
+                    <table>
+                        <tr>
+                        </tr>
+                        <tr>
+                            <td><label for="name">Name</label></td>
+                            <td><input type="text" id="name"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="number">Phone Number</label></td>
+                            <td><input type="text" id="number"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mail">Email</label></td>
+                            <td><input type="text" id="mail"/></td>
+                        </tr>
+                    </table>
+                    Comments? Questions? Ideas?<br />
+                <textarea name="comments" id="comments" rows="5" cols="50">Write whatever you'd like the website owner to see, just be nice about it please!</textarea>
+                </h3>
+            </form>   
+        </div> 
     </body>
