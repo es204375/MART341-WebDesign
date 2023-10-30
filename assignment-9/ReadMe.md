@@ -20,4 +20,4 @@ Learn how to make s'mores in an oven, listen to campfire ambience, and discover 
 - CSS
 
 ## What I Learned
-I learned about utilizing multiple pages within one website.
+I learned about utilizing multiple pages within one website, using input/label to make forms, and how to align images.
