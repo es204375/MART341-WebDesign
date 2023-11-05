@@ -1,0 +1,27 @@
+body {
+    background-color:rosybrown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+#title {    
+    background-color:thistle;
+    color: black;
+    padding: 20px;
+}
+#header {    
+    background-color:rosybrown;
+    color: black;
+    width: 200px;
+    margin: auto;
+}
+.container {    
+    background-color:steelblue;
+    color: black;
+    padding: 20px;
+}
+.pictures {
+    background-color: white;
+    border: 5px dotted steelblue;
+    padding: 20px;
+}
