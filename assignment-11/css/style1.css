@@ -1,0 +1,58 @@
+body {
+    font-family: 'DogicaPixelRegular';
+    font-weight: normal;
+    font-style: normal;
+} 
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+    font-size: 40px;
+}
+
+tr, td {
+    padding: 20px;
+}
+
+td:hover {
+    background-color: rgb(131,118,156);
+    transition: 0.2s;
+}
+
+img {
+    margin-top: 80px;
+}
+
+img:hover {
+    cursor: url('../media/heartcursor.png'), pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.left-side {
+    justify-content: right;
+}
+
+.right-side {
+    text-align: left;
+}
