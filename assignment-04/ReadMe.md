@@ -1,0 +1,6 @@
+1. Browsers receive input from users (URLs, searches, links). Then, the browser sends a HTTP request to the web server that is hosting the desired web page. The server sends a HTTP response with the web page's content and metadata. Browsers interpret this data and render the web page.
+2. The DOM is the Document Object Model, a programming interface for the web. It displays the web page in a way that allows programs to alter it dynamically.
+3. HTML is a markup language for creating web pages. It has lax syntax rules, and is mainly for presenting content. XML is a more versatile markup language, mostly used for data interchange. It has stricter syntax rules. XHTML is HTML reformulated for XML. It combines both markup languages.
+4. Most HTML pages need a declaration that defines the document type, an enclosing root element, a head which contains metadata, and the body which contains the web page content.
+5. Index.html is the default landing page for websites, a starting point for users. For example, 'duckduckgo.com,' should lead to the index.html page.
+6. Naming practices help maintain clarity. Files and folder names should contain no uppercase letters or spaces, names should be descriptive, and naming practices should be consistent. No, 'assignment-04,' if you've been naming all other assignments like, 'assignment-4.'
