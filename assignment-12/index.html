@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Defining the meta data, the website user will not see this -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Elizabeth Sweeney">
+        <meta name="description" content="Information on tending to your mouth's flora and fauna.">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>Caring For The Oral Microbiome</title>
+    </head>
+    <style>
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+        }
+    
+        .image-container {
+          position: relative;
+          cursor: pointer;
+        }
+    
+        .image-container img {
+          display: block;
+          width: 300px; /* Adjust the width as needed */
+          height: auto;
+          margin: 0 auto;
+        }
+    
+        .image-container .hover-image {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: none;
+          width: 100%;
+          height: 100%;
+        }
+    
+    
+        .image-container:hover .hover-image {
+          display: block;
+        }
+      </style>
+    <body>
+    
+    <div class="image-container">
+      <img class="static-image" src="media/FirstTeeth.png" alt="Static Image">
+      <img class="hover-image" src="media/Teeth.gif" alt="Hover Image">
+    </div>
+    
+    </body>
+    </html>
