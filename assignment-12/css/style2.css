@@ -1,0 +1,42 @@
+body {
+    font-family: 'HezaedrusRegular';
+    font-weight: normal;
+    font-style: normal;
+    background-color: rgb(179, 114, 114);
+}
+
+.containerleft {
+    background-color: antiquewhite;
+    color: black;
+    overflow: auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 1000px;
+    height: 70%;
+    border: 10px solid rgb(215, 200, 185);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.containerright {
+    background-color: antiquewhite;
+    color: black;
+    overflow: auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 1000px;
+    height: 70%;
+    border: 10px solid rgb(215, 200, 185);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    flex: 1;
+}
