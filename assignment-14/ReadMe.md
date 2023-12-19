@@ -1,7 +1,7 @@
 # Assignment 14 ReadMe
 
 ## Description
-This web page is all about marbles! Cool.
+This web page is all about marbles! Cool. Love me some pretty spheres.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -18,3 +18,4 @@ Learn about marbles and enjoy media about them.
 - HTML
 - CSS
 - Javascript
+- BootStrap
