@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url('../media/welcome/space.gif') center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hover-effect {
+    width: 200px; 
+    height: 200px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.2);
+}
+
+.bigImage {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; 
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallImage {
+    position: absolute;
+    width: 75px; 
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%; 
+    transform-origin: 50% 50%; 
+}
+
+.smallImage:nth-child(1) { transform: rotate(0deg) translate(300px) rotate(0deg); }
+.smallImage:nth-child(2) { transform: rotate(72deg) translate(300px) rotate(-72deg); }
+.smallImage:nth-child(3) { transform: rotate(144deg) translate(300px) rotate(-144deg); }
+.smallImage:nth-child(4) { transform: rotate(216deg) translate(300px) rotate(-216deg); }
+.smallImage:nth-child(5) { transform: rotate(288deg) translate(300px) rotate(-288deg); }
